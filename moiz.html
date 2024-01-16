@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Digital Marketing Hub</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0; /* Background color */
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #007bff;
+            color: #ffffff;
+            padding: 20px 0;
+        }
+
+        .marketing-section {
+            padding: 50px 0;
+        }
+
+        footer {
+            background-color: #343a40;
+            color: #ffffff;
+            padding: 20px 0;
+        }
+
+        /* Navigation Bar styling */
+        nav {
+            background-color: #333;
+            transition: background-color 0.5s ease;
+        }
+
+        nav a {
+            color: #ffffff;
+            transition: color 0.5s ease;
+        }
+
+        nav a:hover {
+            color: #007bff;
+        }
+
+        /* Additional Styling */
+        section {
+            margin-bottom: 40px;
+        }
+
+        .opportunities-section {
+            background-color: #f8f9fa; /* Background color for job opportunities section */
+            padding: 50px 0;
+        }
+
+        /* Advantages and Disadvantages styling */
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        /* Home/Contact Us Button styling */
+        .cta-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .cta-btn:hover {
+            background-color: #0056b3;
+            transform: scale(1.05);
+        }
+
+        /* Animation */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .animated {
+            animation: fadeInUp 1s ease-out;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Digital Marketing Hub</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#advantages">Advantages</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#disadvantages">Disadvantages</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#opportunities">Job Opportunities</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="text-center">
+        <h1 class="animated">Digital Marketing Hub</h1>
+        <p class="animated">Your one-stop solution for digital marketing needs</p>
+        <a href="#contact" class="cta-btn animated">Contact Us</a>
+    </header>
+
+    <div class="container marketing-section">
+        <div class="row">
+            <div class="col-lg-4">
+                <img src="image1.jpg" class="img-fluid" alt="Digital Strategy">
+                <h2 class="animated">Digital Strategy</h2>
+                <p class="animated">Crafting effective digital strategies to help your business succeed online.</p>
+            </div>
+            <div class="col-lg-4">
+                <img src="image2.jpg" class="img-fluid" alt="Social Media Marketing">
+                <h2 class="animated">Social Media Marketing</h2>
+                <p class="animated">Engage your audience on social media platforms and build a strong online presence.</p>
+            </div>
+            <div class="col-lg-4">
+                <img src="image3.jpg" class="img-fluid" alt="SEO">
+                <h2 class="animated">Search Engine Optimization</h2>
+                <p class="animated">Optimizing your website to rank higher on search engines and drive organic traffic.</p>
+            </div>
+        </div>
+    </div>
+
+    <section id="advantages" class="marketing-section">
+        <div class="container animated">
+            <h2>Advantages of Digital Marketing</h2>
+            <ul>
+                <li>Increased Reach and Visibility</li>
+                <li>Targeted Advertising</li>
+                <li>Cost-Effective</li>
+                <li>Real-Time Analytics</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="disadvantages" class="marketing-section">
+        <div class="container animated">
+            <h2>Disadvantages of Digital Marketing</h2>
+            <ul>
+                <li>Dependency on Technology</li>
+                <li>Information Overload</li>
+                <li>Security and Privacy Concerns</li>
+                <li>Constant Changes in Technology</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="opportunities" class="opportunities-section animated">
+        <div class="container">
+            <h2>Job Opportunities</h2>
+            <p>Explore exciting career opportunities in the field of digital marketing. Join our team and be part of the future!</p>
+        </div>
+    </section>
+
+    <section id="contact" class="marketing-section animated">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Feel free to reach out to us for any inquiries or collaboration opportunities.</p>
+            <!-- Add your contact form or other contact details here -->
+        </div>
+    </section>
+
+    <footer class="text-center animated">
+        <p>&copy; 2024 Digital Marketing Hub. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS and
